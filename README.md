@@ -39,11 +39,12 @@ public function geetest(){
 
 
 前台页面代码
-<pre>
+```html
 <div id="embed-captcha"></div>
 <p id="wait" class="show">正在加载验证码......</p>
 <p id="notice" class="hide">请先完成验证</p>
-  
+```
+<pre>
 <script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js"></script>
 <script src="https://static.geetest.com/static/tools/gt.js"></script>
 <script>
